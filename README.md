@@ -1,9 +1,9 @@
 # Python-Implementation-of-KD-AR-Stream
 
 This is python implementation of KD-AR Stream clsutering algorithm. KD-AR Stream uses an adaptive radius with KD-Tree while defining clusters. 
-<br>
+<be><vr>
 <b>Purpose:</b><br> The aim of this article to propose a new data stream clustering algorithm, which has an adaptive
-radius, can adapt itself to the evolutionary structure of streaming data and works in a fully online manner.
+radius, can adapt itself to the evolutionary structure of streaming data and works in a fully online manner.<br><br>
 <b>Theory and Methods:</b><br>
 In this study, kd-tree is used to forming and splitting clusters, adaptive radius approach is used to support
 increasing and decreasing the size of clusters, active/inactive status of clusters is used to adapt to the
@@ -16,12 +16,12 @@ changing structure of streaming data. Inactivation and reactivation of the statu
 the identification of clusters formed in the same region at a different time interval with same cluster labels in
 accordance with the nature of the streaming data contrary to literature. This feature increases clustering quality
 of the proposed method. A summarization method that consist of time window and sliding window is used to
-support time based summarization without reduce performance.
+support time based summarization without reduce performance.<br><br>
 <b>Results:</b><br>
 To verify the effectiveness of KD-AR Stream algorithm, it is compared with SE-Stream, DPStream, and
 CEDAS on a variety of well-known datasets in terms of clustering quality and run-time complexity. The results
 show that KD-AR Stream outperforms other algorithms with a higher clustering success in a reasonable time
-as shown in Fig. A.
+as shown in Fig. A.<br><br>
 <b>Conclusion:</b><br>
 The aim of this study is to propose a novel data stream clustering algorithm that adapts to the dynamic structure
 of the streaming data. The aim achieved by using the five evolutionary process which are appearance,
