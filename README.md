@@ -76,7 +76,7 @@ labels_true=labels_true.reshape(len(labels))<br><br>
 Purity=kds.purity_score(labels_true, labels)<br>
 Silhouette=silhouette_score(X,labels)<br><br>
 
-#Print results:<br>
+>#Print results:<br>
 print("ARI=",ARI)<br>
 print("Purity=",Purity)<br>
 print("Silhouette=",Silhouette)<br>
