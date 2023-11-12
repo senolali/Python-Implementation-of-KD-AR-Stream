@@ -85,5 +85,5 @@ print("Silhouette=",Silhouette)`<br>
 <br>
 If you use the code, please cite the article shared below:<br><br>
 
-`Şenol, A. & Karacan, H. (2020). K-boyutlu ağaç ve uyarlanabilir yarıçap (KD-AR Stream) tabanlı gerçek zamanlı akan veri kümeleme . Gazi Üniversitesi Mühendislik Mimarlık Fakültesi Dergisi , 35 (1) , 337-354 . DOI: <a href="https://doi.org/10.17341/gazimmfd.467226" target="_blank">10.17341/gazimmfd.467226</a>`
+`Şenol, A. & Karacan, H. (2020). K-boyutlu ağaç ve uyarlanabilir yarıçap (KD-AR Stream) tabanlı gerçek zamanlı akan veri kümeleme . Gazi Üniversitesi Mühendislik Mimarlık Fakültesi Dergisi , 35 (1) , 337-354 . DOI: 10.17341/gazimmfd.467226`
 
