@@ -21,7 +21,10 @@ support time based summarization without reduce performance.<br><br>
 To verify the effectiveness of KD-AR Stream algorithm, it is compared with SE-Stream, DPStream, and
 CEDAS on a variety of well-known datasets in terms of clustering quality and run-time complexity. The results
 show that KD-AR Stream outperforms other algorithms with a higher clustering success in a reasonable time
-as shown in Fig. A.<br><br>
+as shown in Fig. A.
+<img src="FigureA1.tif">
+<img src="FigureA2.tif">
+<br><br>
 <b>Conclusion:</b><br>
 The aim of this study is to propose a novel data stream clustering algorithm that adapts to the dynamic structure
 of the streaming data. The aim achieved by using the five evolutionary process which are appearance,
