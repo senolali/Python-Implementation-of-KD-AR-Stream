@@ -2,10 +2,10 @@
 
 This is python implementation of KD-AR Stream clsutering algorithm.
 <br><br>
-<b>Purpose:</b><br> The aim of this article is to propose a new data stream clustering algorithm that has an adaptive
+<b><h3>Purpose:</h3></b><br> The aim of this article is to propose a new data stream clustering algorithm that has an adaptive
 radius, can adapt itself to the evolutionary structure of streaming data, and works in a fully online manner.<br><br>
 
-<b>Theory and Methods:</b><br>
+<b><h3>Theory and Methods:</h3></b><br>
 The method we propose basically receives its power from Kd-trees that support multidimensionality. Kd-trees are utilized 
 in the processes of forming a new cluster and splitting the existing clusters. The process of range search with a determined 
 radius (r) is performed on data placed into the tree. Two kinds of radius values are kept in the KD-AR Stream: 
@@ -33,7 +33,7 @@ approach, we support the inactivation of an active cluster and reactivation of a
 ![Merge](img/Merge.png) <br><br>
 Fig. 2. An example of merge operation.<br><br>
 
-<b>Results:</b><br>
+<b><h3>Results:</h3></b><br>
 To verify the effectiveness of the KD-AR Stream algorithm, it is compared with SE-Stream, DPStream, and
 CEDAS on a variety of well-known datasets in terms of clustering quality and run-time complexity. The results
 show that KD-AR Stream outperforms other algorithms with a higher clustering success in a reasonable time,
@@ -43,14 +43,14 @@ as shown in Fig. 3.<br>
 ![Run-time](img/FigureA2.png) <br>
 Fig 3. Comparison of KD-AR Stream results with its competetors. 
 <br><br>
-<b>Conclusion:</b><br>
+<b><h3>Conclusion:</h3></b><br>
 The aim of this study is to propose a novel data stream clustering algorithm that adapts to the dynamic structure
 of the streaming data. The aim is achieved by using the five evolutionary processes which are appearance,
 activation/inactivation, self-evolution, merge, and split. According to the results, the proposed method is very
 successful in terms of clustering quality and run-time complexity. 
 <br><br><br>
-<b><h2>Code Usage:</h2></b><br>
-Ex:<br>
+<b><h2>Code Usage:</h2></b>
+<b>Ex:<br><br>
 >dataset = np.loadtxt("Datasets/ExclaStar.txt", dtype=float,delimiter=',')<br>
 X=dataset[:,1:3]<br>
 labels_true=dataset[:,3]<br>
