@@ -18,16 +18,16 @@ The proposed method supports the evolution of data streams, as mentioned in the 
 there are five types of evolution. These are the appearance of a new cluster, the disappearance of an existing cluster, the 
 splitting of an existing cluster to two clusters, the merging of two clusters, and the self-evolution of a cluster. In our 
 approach, we support the inactivation of an active cluster and reactivation of an inactive cluster instead of its disappearance 
-(deletion). Figure 6 provides an outline of the KD-AR Stream. We can sum up the evolutionary steps of the proposed model as follows:
+(deletion). Figure 6 provides an outline of the KD-AR Stream. We can sum up the evolutionary steps of the proposed model as follows:<br>
 	1. Appear: If a sufficient amount of data, which is sufficiently far away from all clusters, is formed in the light 
- of newly received data, forming a new cluster by combining them;
+ of newly received data, forming a new cluster by combining them;<br>
 	2. Activation-Inactivation: If the amount of data in an active cluster drops below the threshold value, this cluster 
  is inactivated. On the contrary, an inactive cluster is reactivated if the number of elements exceeds the threshold value 
- when a new element is added to it;
+ when a new element is added to it;<br>
 	3. Merge: If the distances between centers of two or more clusters drop below the predetermined threshold value, these 
- clusters merge (See Figure 3); 
+ clusters merge (See Figure 3); <br>
 	4. Split: If a sufficient amount of data in an active cluster has a sufficient distance from the center of the cluster, 
- this cluster is split (See Figure 4);
+ this cluster is split (See Figure 2);<br>
 	5. Self-evolution: Behaviors of an existing cluster like radius, owned data, and position can change over time according 
  to the evolution of the data stream. Our approach adapts to evolution quickly.<br>
 ![Merge](img/Merge.png) <br><br>
