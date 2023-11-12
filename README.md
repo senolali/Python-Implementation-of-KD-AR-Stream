@@ -51,6 +51,7 @@ successful in terms of clustering quality and run-time complexity.
 <br><br>
 <b>Code Usage:</b><br>
 Ex:<br>
+'''
 dataset = np.loadtxt("Datasets/ExclaStar.txt", dtype=float,delimiter=',')<br>
 X=dataset[:,1:3]<br>
 labels_true=dataset[:,3]<br>
@@ -79,7 +80,7 @@ Silhouette=silhouette_score(X,labels)<br><br>
 print("ARI=",ARI)<br>
 print("Purity=",Purity)<br>
 print("Silhouette=",Silhouette)<br>
-
+'''
 <br>
 If you use the code, please cite the article shared below:<br><br>
 Şenol, A. & Karacan, H. (2020). K-boyutlu ağaç ve uyarlanabilir yarıçap (KD-AR Stream) tabanlı gerçek zamanlı akan veri kümeleme . Gazi Üniversitesi Mühendislik Mimarlık Fakültesi Dergisi , 35 (1) , 337-354 . DOI: <a href="https://doi.org/10.17341/gazimmfd.467226" target="_blank">10.17341/gazimmfd.467226</a>
