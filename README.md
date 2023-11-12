@@ -19,7 +19,6 @@ there are five types of evolution. These are the appearance of a new cluster, th
 splitting of an existing cluster to two clusters, the merging of two clusters, and the self-evolution of a cluster. In our 
 approach, we support the inactivation of an active cluster and reactivation of an inactive cluster instead of its disappearance 
 (deletion). Figure 6 provides an outline of the KD-AR Stream. We can sum up the evolutionary steps of the proposed model as follows:
-
 	1. Appear: If a sufficient amount of data, which is sufficiently far away from all clusters, is formed in the light 
  of newly received data, forming a new cluster by combining them;
 	2. Activation-Inactivation: If the amount of data in an active cluster drops below the threshold value, this cluster 
