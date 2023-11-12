@@ -52,7 +52,7 @@ successful in terms of clustering quality and run-time complexity.
 <b>Code Usage:</b><br>
 Ex:<br>
 '''
-dataset = np.loadtxt("Datasets/ExclaStar.txt", dtype=float,delimiter=',')<br>
+>dataset = np.loadtxt("Datasets/ExclaStar.txt", dtype=float,delimiter=',')<br>
 X=dataset[:,1:3]<br>
 labels_true=dataset[:,3]<br>
 <br><br>
