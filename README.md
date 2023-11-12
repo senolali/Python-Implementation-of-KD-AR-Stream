@@ -29,7 +29,7 @@ approach, we support the inactivation of an active cluster and reactivation of a
 	4. Split: If a sufficient amount of data in an active cluster has a sufficient distance from the center of the cluster, 
  this cluster is split (See Figure 4);
 	5. Self-evolution: Behaviors of an existing cluster like radius, owned data, and position can change over time according 
- to the evolution of the data stream. Our approach adapts to evolution quickly.
+ to the evolution of the data stream. Our approach adapts to evolution quickly.<br>
 ![Merge](img/Merge.png) <br><br>
 Fig. 2. An example of merge operation.<br><br>
 
