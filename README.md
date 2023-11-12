@@ -12,8 +12,8 @@ radius (r) is performed on data placed into the tree. Two kinds of radius values
 The distance of the farthest element of the cluster to the gravity center of the cluster (C_Radius).
 The average standard deviation in all dimensions (C_Std) and it is used to decide whether or not the clusters will be merged. 
 <br><br>
-![Radii](img/Radii.png) <br><br>
-Fig. 1. Types of radii used in KD-AR Stream.<br>
+![Radii](img/Radii.png) 
+Fig. 1. Types of radii used in KD-AR Stream.<br><br>
 The proposed method supports the evolution of data streams, as mentioned in the E-Stream algorithm. In the E-Stream algorithm, 
 there are five types of evolution. These are the appearance of a new cluster, the disappearance of an existing cluster, the 
 splitting of an existing cluster to two clusters, the merging of two clusters, and the self-evolution of a cluster. In our 
