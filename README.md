@@ -63,7 +63,7 @@ TN= 59<br>
 r= 0.4<br>
 r_threshold= 0.08<br>
 r_max= 0.53<br><br>
->####MinMaxNormalization#######################################################
+>####MinMaxNormalization####<br>
 scaler = MinMaxScaler()<br>
 scaler.fit(X)<br>
 MinMaxScaler()<br>
