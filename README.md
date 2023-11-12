@@ -23,7 +23,7 @@ CEDAS on a variety of well-known datasets in terms of clustering quality and run
 show that KD-AR Stream outperforms other algorithms with a higher clustering success in a reasonable time
 as shown in Fig. A.<br>
 <center>
-![Accuracy](img/FigureA1.png) 
+![Accuracy](img/FigureA1.png) <br>
 ![Run-time](img/FigureA2.png) 
 </center>
 <br><br>
