@@ -22,10 +22,10 @@ To verify the effectiveness of KD-AR Stream algorithm, it is compared with SE-St
 CEDAS on a variety of well-known datasets in terms of clustering quality and run-time complexity. The results
 show that KD-AR Stream outperforms other algorithms with a higher clustering success in a reasonable time
 as shown in Fig. A.<br>
-<center>
-![Accuracy](img/FigureA1.png) <br>
+
+![Accuracy](img/FigureA1.png) 
 ![Run-time](img/FigureA2.png) 
-</center>
+
 <br><br>
 <b>Conclusion:</b><br>
 The aim of this study is to propose a novel data stream clustering algorithm that adapts to the dynamic structure
