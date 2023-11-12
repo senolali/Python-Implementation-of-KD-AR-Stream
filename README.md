@@ -27,7 +27,7 @@ approach, we support the inactivation of an active cluster and reactivation of a
 	3. Merge: If the distances between centers of two or more clusters drop below the predetermined threshold value, these 
  clusters merge (See Figure 3); <br>
 	4. Split: If a sufficient amount of data in an active cluster has a sufficient distance from the center of the cluster, 
- this cluster is split (See Figure 2);<br>
+ this cluster is split;<br>
 	5. Self-evolution: Behaviors of an existing cluster like radius, owned data, and position can change over time according 
  to the evolution of the data stream. Our approach adapts to evolution quickly.<br>
 ![Merge](img/Merge.png) <br><br>
@@ -37,11 +37,11 @@ Fig. 2. An example of merge operation.<br><br>
 To verify the effectiveness of the KD-AR Stream algorithm, it is compared with SE-Stream, DPStream, and
 CEDAS on a variety of well-known datasets in terms of clustering quality and run-time complexity. The results
 show that KD-AR Stream outperforms other algorithms with a higher clustering success in a reasonable time,
-as shown in Fig. A.<br>
+as shown in Fig. 3.<br>
 
 ![Accuracy](img/FigureA1.png) 
-![Run-time](img/FigureA2.png) 
-
+![Run-time](img/FigureA2.png) <br>
+Fig 3. Comparison of KD-AR Stream results with its competetors. 
 <br><br>
 <b>Conclusion:</b><br>
 The aim of this study is to propose a novel data stream clustering algorithm that adapts to the dynamic structure
