@@ -78,9 +78,9 @@ Purity=kds.purity_score(labels_true, labels)<br>
 Silhouette=silhouette_score(X,labels)<br><br>
 
 >#Print results:<br>
-print("ARI=",ARI)<br>
+`print("ARI=",ARI)<br>
 print("Purity=",Purity)<br>
-print("Silhouette=",Silhouette)<br>
+print("Silhouette=",Silhouette)`<br>
 '''
 <br>
 If you use the code, please cite the article shared below:<br><br>
