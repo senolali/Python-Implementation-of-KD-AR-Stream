@@ -49,5 +49,37 @@ of the streaming data. The aim is achieved by using the five evolutionary proces
 activation/inactivation, self-evolution, merge, and split. According to the results, the proposed method is very
 successful in terms of clustering quality and run-time complexity. 
 <br><br>
+<b>Code Usage:</b><br>
+Ex:<br>
+dataset = np.loadtxt("Datasets/ExclaStar.txt", dtype=float,delimiter=',')
+X=dataset[:,1:3]
+labels_true=dataset[:,3]
+dataset_name="2_ExclaStar"
+#Parameters
+N= 9
+TN= 59
+r= 0.4
+r_threshold= 0.08
+r_max= 0.53
+####MinMaxNormalization#######################################################
+scaler = MinMaxScaler()
+scaler.fit(X)
+MinMaxScaler()
+X=scaler.transform(X)<br>
+
+kds=KDARStream(X,N,TN,r,r_threshold,r_max,X.shape[1],plot)
+labels=kds.labels_
+labels_true=labels_true.reshape(len(labels))
+
+ARI=adjusted_rand_score(labels_true, labels)
+Purity=kds.purity_score(labels_true, labels)
+Silhouette=silhouette_score(X,labels)
+
+#Print results:<br>
+print("ARI=",ARI)
+print("Purity=",Purity)
+print("Silhouette=",Silhouette)
+
+<br><br>
 If you use the code, please cite the article shared below:<br><br>
 Şenol, A. & Karacan, H. (2020). K-boyutlu ağaç ve uyarlanabilir yarıçap (KD-AR Stream) tabanlı gerçek zamanlı akan veri kümeleme . Gazi Üniversitesi Mühendislik Mimarlık Fakültesi Dergisi , 35 (1) , 337-354 . DOI: <a href="https://doi.org/10.17341/gazimmfd.467226" target="_blank">10.17341/gazimmfd.467226</a>
