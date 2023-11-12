@@ -1,6 +1,6 @@
 # Python-Implementation-of-KD-AR-Stream
 
-This is python implementation of KD-AR Stream clsutering algorithm. KD-AR Stream uses an adaptive radius with KD-Tree while defining clusters. 
+This is python implementation of KD-AR Stream clsutering algorithm.
 <br><br>
 <b>Purpose:</b><br> The aim of this article to propose a new data stream clustering algorithm, which has an adaptive
 radius, can adapt itself to the evolutionary structure of streaming data and works in a fully online manner.<br><br>
