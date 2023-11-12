@@ -48,10 +48,9 @@ The aim of this study is to propose a novel data stream clustering algorithm tha
 of the streaming data. The aim is achieved by using the five evolutionary processes which are appearance,
 activation/inactivation, self-evolution, merge, and split. According to the results, the proposed method is very
 successful in terms of clustering quality and run-time complexity. 
-<br><br>
-<b>Code Usage:</b><br>
+<br><br><br>
+<b><h2>Code Usage:</h2></b><br>
 Ex:<br>
-'''
 >dataset = np.loadtxt("Datasets/ExclaStar.txt", dtype=float,delimiter=',')<br>
 X=dataset[:,1:3]<br>
 labels_true=dataset[:,3]<br>
