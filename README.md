@@ -62,17 +62,17 @@ TN= 59<br>
 r= 0.4<br>
 r_threshold= 0.08<br>
 r_max= 0.53<br><br>
-####MinMaxNormalization#######################################################
+>####MinMaxNormalization#######################################################
 scaler = MinMaxScaler()<br>
 scaler.fit(X)<br>
 MinMaxScaler()<br>
 X=scaler.transform(X)<br><br>
 
-kds=KDARStream(X,N,TN,r,r_threshold,r_max,X.shape[1],plot)<br>
+>kds=KDARStream(X,N,TN,r,r_threshold,r_max,X.shape[1],plot)<br>
 labels=kds.labels_<br>
 labels_true=labels_true.reshape(len(labels))<br><br>
 
-ARI=adjusted_rand_score(labels_true, labels)<br>
+>ARI=adjusted_rand_score(labels_true, labels)<br>
 Purity=kds.purity_score(labels_true, labels)<br>
 Silhouette=silhouette_score(X,labels)<br><br>
 
